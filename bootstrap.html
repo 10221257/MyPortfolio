@@ -1,0 +1,160 @@
+<DOCTYPE HTML>
+ <html>
+
+    <HEAD>
+   <META CHARSET = "UTF-8">
+   <META NAME="VIEWPORT" CONTENT="WIDTH-DEVICE-WIDTH, INTITAL-SCALE=1.0">
+    <TITLE>Dean Beard - Portfolio</TITLE>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    </HEAD>
+
+    <div class="Container">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Your Website</a>
+            <button class="navber toggler" type="Button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse nav-bar-collapse" id="navBarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+     <section id="home" class="hero">
+        <div class=container>
+            <div class="row">
+                <div class=col-lg-12 text-center>
+                    <h1>Dean Beard</h1>
+                    <p>Lecturer in Computing</p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <section id="skills" class="skills">
+        <div class="Container">
+           <div class="row">
+             <div class="col-lg-12 text-center">
+                <h2>Skills</h2>
+                <p>Here are some of my key skills:</p>
+             </div>
+           </div>
+
+           <div class="row">
+            <div class="col-lg-4 col-md-6">
+             <div class="skil item">
+                <i class="fas fa-code"></i>
+                <h3>Web Devlopment</h3>
+                <p>HTML, CSS, JavaScript, Bootstrap</p>
+             </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                 <div class="skil item">
+                    <i class="fas fa-database"></i>
+                    <h4>Database Design</h4>
+                    <p>MySQL, MongoDB</p>
+                 </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                     <div class="skil item">
+                        <i class="fas fa-laptop-code"></i>
+                        <h5>Programming</h5>
+                        <p>Python, Java</p>
+           </div>
+        </div>
+     </section>
+
+   <section id="projects" class="projects">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h6>Projects</h6>
+                <p>Check out some of my projects:</p>
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-6">
+         <div class="card">
+            <img src="images/music.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+                <h7>Project 1</h7>
+                <p class="card-text">Description of Project 1.</p>
+                <a href="#" class="btn btn-primary">View Details</a>
+         </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-6">
+         <div class="card">
+            <img src="images/film.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+                <h8>Project 2</h8>
+                <p class="card-text">Description of Project 2.</p>
+                <a href="#" class="btn btn-primary">View Details</a>
+         </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-6">
+         <div class="card">
+            <img src="images/annimation.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+                <h9>Project 3</h9>
+                <p class="card-text">Description of Project 3.</p>
+                <a href="#" class="btn btn-primary">View Details</a>
+         </div>
+        </div>
+    </div>
+    </div>
+   </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h10>Contact Me</h10>
+                <p>Feel Fre to Reach Out:</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <form id="contactForm" action="#" method="post">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="subject" name="subject" required></textarea>
+                    </div>
+                    <button type="Submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+  </section>
+
+        </html>
